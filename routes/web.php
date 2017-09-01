@@ -12,5 +12,6 @@
 */
 
 Route::get('/', 'FormsController@getIndex');
+Route::post('forms/create', 'FormsController@store');
 Route::get('about', 'PagesController@getAbout');
 Route::get('contact', 'PagesController@getContact');
