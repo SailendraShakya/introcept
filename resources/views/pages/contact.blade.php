@@ -3,7 +3,7 @@
 <div class="flex-center position-ref full-height">
          <div class="content">
                 <div class="title m-b-md">
-                    contact Us Page
+                    <h2>Contact Us Page</h2>
                 </div>
 
 
