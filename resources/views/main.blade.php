@@ -14,18 +14,28 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
   <script>
   $(function() {
-    $( ".datepicker" ).datepicker();
+    $( ".datepicker" ).datepicker({
+           changeMonth: true, changeYear: true, yearRange: '1900:+0'
+    });
     $("#education").keypress(function(event) {
     if(event.which == '13') {
       return false;
     }
   });
 
+     $.validator.addMethod('customphone', function (value, element) {
+        return this.optional(element) || /^(\+91-|\+91|0)?\d{10}$/.test(value);
+    }, "Please enter a valid phone number");
+
+
     $("#enq_form").validate({
       rules: {
       name: "required",
       gender: "required",
-      phone: "required",
+      phone: {
+        required: true,
+        customphone: true
+      },
       email: {
         required: true,
         email: true
