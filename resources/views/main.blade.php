@@ -14,7 +14,13 @@
   <script>
   $(function() {
     $( ".datepicker" ).datepicker();
+    $("#education").keypress(function(event) {
+    if(event.which == '13') {
+      return false;
+    }
   });
+  });
+
   </script> 
 
 </script>
@@ -28,6 +34,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active">{{ HTML::link('/', 'Form', true)}}</li>
+      <li>{{ HTML::link('forms/listing', 'Listing', true)}}</li>
       <li>{{ HTML::link('/about', 'About Us', true)}}</li>
       <li>{{ HTML::link('/contact', 'Contact Us', true)}}</li>
     </ul>
