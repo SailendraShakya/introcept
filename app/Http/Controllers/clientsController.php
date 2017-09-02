@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FormsController extends Controller {
+class ClientsController extends Controller {
 
 	/**
      * Show the form to create a new record.
@@ -64,7 +64,7 @@ class FormsController extends Controller {
 		fputcsv($fp, $cvsData);
 		fclose($fp);
 		}
-        return redirect('forms/listing');
+        return redirect('client/listing');
 
     }
 } 

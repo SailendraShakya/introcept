@@ -70,10 +70,10 @@
       <span class="navbar-brand">Introcept Code Testing >></span>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active">{{ HTML::link('/', 'Form', true)}}</li>
-      <li>{{ HTML::link('forms/listing', 'Listing', true)}}</li>
-      <li>{{ HTML::link('/about', 'About Us', true)}}</li>
-      <li>{{ HTML::link('/contact', 'Contact Us', true)}}</li>
+      <li class="{{ Request::segment(1) == '' ? 'active' : null }}">{{ HTML::link('/', 'Add Clients', true)}}</li>
+      <li class="{{ Request::segment(1) == 'client' ? 'active' : null }}">{{ HTML::link('client/listing', 'Clients', true)}}</li>
+      <li class="{{ Request::segment(1) == 'about' ? 'active' : null }}">{{ HTML::link('/about', 'About Us', true)}}</li>
+      <li class="{{ Request::segment(1) == 'contact' ? 'active' : null }}">{{ HTML::link('/contact', 'Contact Us', true)}}</li>
     </ul>
   </div>
 </nav>

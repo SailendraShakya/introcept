@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', 'FormsController@getIndex');
-Route::post('forms/create', 'FormsController@store');
-Route::get('forms/listing', 'FormsController@listing');
+Route::get('/', 'ClientsController@getIndex');
+Route::post('client/create', 'ClientsController@store');
+Route::get('client/listing', 'ClientsController@listing');
 Route::get('about', 'PagesController@getAbout');
 Route::get('contact', 'PagesController@getContact');
