@@ -1,7 +1,7 @@
 @extends('main')
 @section('content')
 @include('errors')
-{!! Form::open(array('url' => 'forms/create','clsss' => 'form-control')) !!}
+{!! Form::open(array('url' => 'forms/create','clsss' => 'form-control','id'=> 'enq_form')) !!}
 <div class="form-group {{ $errors->has('name') ? 'has-error':'' }}">
   {{ Form::label('name', 'Name:') }}
   {{ Form::text('name', null, ['class' => 'form-control']) }}
