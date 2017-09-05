@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"produc",
+				"products"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"new",
+				"new_array"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"last_filter": "inden",
+		"selected_items":
+		[
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"box",
+				"Boxy Theme: Activation"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Library/WebServer/Documents/Projects/introcept/tests/Unit/ClientTest.php",
+		"/Library/WebServer/Documents/Projects/introcept/tests/Feature/ClientTest.php",
+		"/Library/WebServer/Documents/Projects/introcept/tests/Unit/ExampleTest.php",
+		"/Library/WebServer/Documents/Projects/introcept/tests/Feature/ExampleTest.php",
+		"/Users/sailendrashakya/Desktop/quote.html",
+		"/Users/sailendrashakya/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/sailendrashakya/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Library/WebServer/Documents/Projects/introcept/readme.md",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/form.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/main.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/app/Http/Controllers/clientsController.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/pages/contact.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/pages/about.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/assets/js/app.js",
+		"/Library/WebServer/Documents/Projects/introcept/resources/assets/js/bootstrap.js",
+		"/Library/WebServer/Documents/Projects/introcept/app/helpers.php",
+		"/Library/WebServer/Documents/Projects/introcept/composer.json",
+		"/Library/WebServer/Documents/Projects/introcept/routes/web.php",
+		"/Library/WebServer/Documents/Projects/introcept/app/Http/Controllers/formsController.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/listing.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/public/csv/data.csv",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/errors.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/pages/welcome.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/config/app.php",
+		"/Library/WebServer/Documents/Projects/introcept/app/Http/Controllers/PagesController.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/welcome.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/about.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/resources/views/contact.blade.php",
+		"/Library/WebServer/Documents/Projects/introcept/storage/logs/laravel.log",
+		"/Users/sailendrashakya/Desktop/add_quote.js",
+		"/Library/WebServer/Documents/Projects/introcept/.env",
+		"/Library/WebServer/Documents/Projects/introcept/.gitignore",
+		"/Users/sailendrashakya/Desktop/ror/jquery/README.md",
+		"/Users/sailendrashakya/Downloads/Ex_Files_JQuery_EssT/Exercise Files/Ch_1/Events_intro.html",
+		"/Users/sailendrashakya/Desktop/ror/app/db/migrate/20170801111315_create_students.rb",
+		"/Users/sailendrashakya/Desktop/ror/codesys/question1.rb",
+		"/Users/sailendrashakya/Desktop/ror/codesys/question2.rb",
+		"/Users/sailendrashakya/Desktop/ror/codesys/question3.txt",
+		"/Users/sailendrashakya/Desktop/ror/codesys/question4.txt",
+		"/Users/sailendrashakya/Desktop/ror/simple_cms/app/models/page.rb",
+		"/Users/sailendrashakya/Desktop/ror/simple_cms/db/migrate/20160712163345_create_users.rb",
+		"/Users/sailendrashakya/myapp/Gemfile",
+		"/Users/sailendrashakya/Desktop/Flex n Friend/estimation.txt",
+		"/Users/sailendrashakya/Desktop/Flex n Friend/queries.txt",
+		"/Users/sailendrashakya/Desktop/Flex n Friend/Aneka - WP",
+		"/Users/sailendrashakya/Downloads/googleauth-4e5912c04405.json",
+		"/Library/WebServer/Documents/Projects/app/themes/custom/app_theme/app_theme.info.yml",
+		"/Users/sailendrashakya/Downloads/database_dumps/trupainters.sql",
+		"/Library/WebServer/Documents/Projects/trupainters/config/app.php",
+		"/Library/WebServer/Documents/Projects/trupainters/categories.sql",
+		"/Library/WebServer/Documents/Projects/mjh-group/themes/test/templates/layout/page.html.twig",
+		"/Library/WebServer/Documents/Projects/mjh-group/themes/test/test.theme",
+		"/Library/WebServer/Documents/Projects/mjh-group/themes/test/test.libraries.yml",
+		"/Library/WebServer/Documents/Projects/mjh-group/sites/default/settings.php",
+		"/Library/WebServer/Documents/Projects/mjh-group/themes/test/test.info.yml",
+		"/Library/WebServer/Documents/Projects/d8/.gitignore",
+		"/Users/sailendrashakya/Pictures/Photos Library.photoslibrary/Masters/2017/03/08/20170308-100913/IMG_8680.JPG",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/door-server/framework/db/CDbConnection.php",
+		"/Users/sailendrashakya/Desktop/doorserver"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"update_product_quantity_new",
+			"render_quote_listing_div",
+			"update_product_quantity_new",
+			"'});",
+			">\n",
+			"records",
+			"debug_exception_response_format",
+			"time"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "web.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"client",
+				"tests/Unit/ClientTest.php"
+			],
+			[
+				"example",
+				"tests/Unit/ExampleTest.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
