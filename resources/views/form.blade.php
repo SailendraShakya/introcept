@@ -9,15 +9,15 @@
 <div class="form-group col-xs-10 col-sm-4 col-md-4 col-lg-4 {{ $errors->has('gender') ? 'has-error':'' }}">
   {{ Form::label('gender', 'Gender :*') }}
   <div class="radio">
-  <label>{{ Form::radio('gender', 'Male') }} Male</label>
+    <label>{{ Form::radio('gender', 'Male') }} Male</label>
   </div>
   <div class="radio">
-  <label>{{ Form::radio('gender', 'Female') }} Female</label>
+    <label>{{ Form::radio('gender', 'Female') }} Female</label>
   </div>
   <div class="radio">
-  <label>{{ Form::radio('gender', 'Other') }} Others</label>
-</div>
-<label id="gender-error" class="error" for="gender" style="display: none;">Please enter your gender</label>
+    <label>{{ Form::radio('gender', 'Other') }} Others</label>
+  </div>
+  <label id="gender-error" class="error" for="gender" style="display: none;">Please enter your gender</label>
 </div>
 <div class="form-group col-xs-10 col-sm-4 col-md-4 col-lg-4 {{ $errors->has('phone') ? 'has-error':'' }}">
   {{ Form::label('phone', 'Phone :*') }}
@@ -49,8 +49,8 @@
 
 </div>
 <div class="clearfix"></div>
-        <div class="col-xs-10 col-sm-4 col-md-4 col-lg-4">
+<div class="col-xs-10 col-sm-4 col-md-4 col-lg-4">
   {{ Form::submit('Submit Form', ['class' => 'btn btn-primary']) }}
-  </div>
+</div>
 {!! Form::close() !!}
 @endsection
