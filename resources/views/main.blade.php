@@ -12,8 +12,10 @@
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+  <script type="text/javascript" src="{{ url('js/jquery-paginate.min.js') }}"></script>
   <script>
   $(function() {
+    $('#listing_table').paginate({ limit: 5 });
     $( ".datepicker" ).datepicker({
            changeMonth: true, changeYear: true, yearRange: '1900:+0'
     });
@@ -70,6 +72,20 @@
   .error{
     color: red;
   }
+  .page-navigation a {
+  margin: 0 2px;
+  display: inline-block;
+  padding: 3px 5px;
+  color: #ffffff;
+  background-color: #70b7ec;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+ 
+.page-navigation a[data-selected] {
+  background-color: #3d9be0;
+}
 </style>
 </head>
 <body>

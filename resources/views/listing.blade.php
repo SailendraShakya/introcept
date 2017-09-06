@@ -1,7 +1,7 @@
 @extends('main')
 @section('content')
 <h1>listing</h1>
-  <table class="table">
+  <table id="listing_table" class="table">
     <thead class="thead-inverse">
       <tr>
         <th>Name</th>
@@ -31,7 +31,7 @@
       </tr>
 @endif
 @endforeach
-
+<!-- ... -->
     </tbody>
   </table>
 @endsection
