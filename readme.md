@@ -30,6 +30,6 @@ You will need to make sure your server meets the following requirements:
 - Jquery pagination in client listing
 - Jquery magnific popup for showing detail of client
 - PSR-2 coding standards
-- Use composer package list
+- Use composer package list(laravelcollective/html and pragmarx/ci)
 - testing using laravel default phpunit
 - Application level logging
