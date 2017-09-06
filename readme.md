@@ -25,3 +25,11 @@ You will need to make sure your server meets the following requirements:
 - Custom code for saving and retrieving data in and from csv
 - Server side validation for client form
 - Client side validation for client form
+- Implement code climate for code score
+- Implement Travis for test score
+- Jquery pagination in client listing
+- Jquery magnific popup for showing detail of client
+- PSR-2 coding standards
+- Use composer package list
+- testing using laravel default phpunit
+- Application level logging
