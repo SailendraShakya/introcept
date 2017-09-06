@@ -9,12 +9,32 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="{{ url('css/magnific-popup.css') }}">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
   <script type="text/javascript" src="{{ url('js/jquery-paginate.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url('js/jquery.magnific-popup.min.js') }}"></script>
   <script>
   $(function() {
+    $('.open-popup-link').click(function(){
+      $('h3.client-name').html($(this).data('name'));
+      $('#gender_value').html($(this).data('gender'));
+      $('#phone_value').html($(this).data('phone'));
+      $('#address_value').html($(this).data('address'));
+      $('#nationality_value').html($(this).data('nationality'));
+      $('#education_value').html($(this).data('education'));
+      $('#dob_value').html($(this).data('dob'));
+      $('#contact_value').html($(this).data('contact'));
+      $('#email_value').html($(this).data('email'));
+
+
+    });
+    $('.open-popup-link').magnificPopup({
+  type:'inline',
+  midClick: true
+});
+
     $('#listing_table').paginate({ limit: 5 });
     $( ".datepicker" ).datepicker({
            changeMonth: true, changeYear: true, yearRange: '1900:+0'
@@ -69,6 +89,29 @@
 
 </script>
 <style type="text/css">
+h3.client-name{
+  text-transform: uppercase;
+  color: #777;
+}
+
+#client_detail span{
+  color: #777;
+}
+
+.w150{
+    padding-left:26px;
+    width:150px;
+    display:inline-block
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
   .error{
     color: red;
   }
